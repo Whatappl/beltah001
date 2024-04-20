@@ -91,7 +91,7 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
     const thum = fs.readFileSync ('./𝐃𝐑𝐄𝐗_𝐀𝐈.jpg');	  
     const Owner = DevDreaded.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender);
     const viewOnceMessage = args.join(" ");
-    const fcontact = { key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { 'contactMessage': { 'displayName': `𝐃𝐑𝐄𝐗 𝐁𝐎𝐓`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;DrexBot,;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': { url: 'https://telegra.ph/file/00c44dbca471eff754425.png' }}}}
+    const fcontact = { key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { 'contactMessage': { 'displayName': `𝙸 𝚊𝚖 𝙱𝚎𝚕𝚝𝚊𝚑`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;𝙱𝚎𝚕𝚝𝚊𝚑Bot,;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': { url: 'https://telegra.ph/file/00c44dbca471eff754425.png' }}}}
        // Group
     const groupMetadata = m.isGroup ? await client.groupMetadata(m.chat).catch((e) => {}) : "";
     const groupName = m.isGroup && groupMetadata ? await groupMetadata.subject : "";
@@ -268,6 +268,7 @@ var lod = [
 "50%",
 "75%",
 "100%",
+"𝙸 𝚊𝚖 𝙱𝚎𝚕𝚝𝚊𝚑🤯",
 	" 🙂‍↕𝚋𝚎𝚕𝚝𝚊𝚑 𝚙𝚒𝚗𝚐𝚒𝚗𝚐 𝚒𝚗 𝚊 𝚏𝚎𝚠🙂‍↔◍ ◉ ⭗"
 ]
 let { key } = await client.sendMessage(from, {text: '📡𝙱𝚎𝚕𝚝𝚊𝚑 𝙿𝚘𝚗𝚐 𝙻𝚊𝚝𝚎𝚗𝚌𝚢'})
@@ -283,7 +284,8 @@ var lod = [
 "😎",
 "🤬",
 "🙂‍↕",
-        "🗿",	
+"𝙸 𝚊𝚖 𝙱𝚎𝚕𝚝𝚊𝚑",
+            "🗿",	
 "🙂‍↕𝙻𝚘𝚊𝚍𝚒𝚗𝚐 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢 𝚋𝚢 𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑𝟸𝟻𝟺🙂‍↔"
 ]
 let { key } = await client.sendMessage(from, {text: '🙂‍↕𝙻𝚘𝚊𝚍𝚒𝚗𝚐 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢 𝚋𝚢 𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑𝟸𝟻𝟺🙂‍↔'})
@@ -436,7 +438,7 @@ let cap = `╭════〘 𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡-𝐁𝐎
 ┃⭓│${prefix}𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭.
 ┃⭓│${prefix}𝐉𝐨𝐢𝐧.
 ┃⭓│${prefix}𝐁𝐨𝐭𝐩𝐩.
-┃⭓│>
+┃⭓│>NEW ANTIBAN FOR WHATSAPP FEATURE ADDED
 ┃⭓│${prefix}𝐒𝐞𝐭𝐯𝐚𝐫.
 ┃⭓│${prefix}𝐁𝐥𝐨𝐜𝐤.
 ┃⭓│${prefix}𝐊𝐢𝐥𝐥.
@@ -1280,7 +1282,7 @@ await m.reply('𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮
  case 'sc': case 'script': case 'repo':
 
  client.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/53077a0e00d6bda32a46b.jpg` }, caption: 
-`▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n┣❏Hello *${pushname}*▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n\n┣❏You can deploy 𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡-𝐁𝐎𝐓 using the GitHub link below🗿\n\n┣❏Fork and give us a star✨.\n┣❏https://github.com/Beltah/beltah001\n\n┣❏Enjoy and have fun with the bot🗿...\n\n┣❏Use the link below to pair 𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡 without scanning any qr code\n┣❏[https://replit.com/@beltahke17/Pairing-Beltah001#index.js]\n\n┣❏𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝚅𝙸𝙳𝙴𝙾 𝙵𝙾𝚁 𝙳𝙴𝙿𝙻𝙾𝚈𝙸𝙽𝙶 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙸𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴.\n🙂‍↕𝙰𝚜𝚔 𝙱𝚎𝚕𝚝𝚊𝚑 𝚝𝚘 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚒𝚗 𝚍𝚎𝚙𝚕𝚘𝚢𝚖𝚎𝚗𝚝🙂‍↔\n\n\n𝙼𝚊𝚍𝚎 𝚘𝚗 𝚎𝚊𝚛𝚝𝚑 𝚋𝚢 𝙱𝚎𝚕𝚝𝚊𝚑𝚔𝚎\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬` });
+`▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n┣❏Hello *${pushname}*▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n\n┣❏𝚈𝚘𝚞 𝚌𝚊𝚗 𝚍𝚎𝚙𝚕𝚘𝚢 𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡-𝐁𝐎𝐓 𝚞𝚜𝚒𝚗𝚐 𝚝𝚑𝚎 𝙶𝚒𝚝𝙷𝚞𝚋 𝚕𝚒𝚗𝚔 𝚋𝚎𝚕𝚘𝚠🗿\n\n┣❏𝙵𝚘𝚛𝚔 𝚊𝚗𝚍 𝚐𝚒𝚟𝚎 𝚞𝚜 𝚊 𝚜𝚝𝚊𝚛✨.\n┣❏https://github.com/Beltah/beltah001\n\n┣❏𝙴𝚗𝚓𝚘𝚢 𝚊𝚗𝚍 𝚑𝚊𝚟𝚎 𝚏𝚞𝚗 𝚠𝚒𝚝𝚑 𝚝𝚑𝚎 𝚋𝚘𝚝🗿...\n\n┣❏𝚄𝚜𝚎 𝚝𝚑𝚎 𝚕𝚒𝚗𝚔 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚙𝚊𝚒𝚛 𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚜𝚌𝚊𝚗𝚗𝚒𝚗𝚐 𝚊𝚗𝚢 𝚚𝚛 𝚌𝚘𝚍𝚎\n┣❏[https://replit.com/@beltahke17/Pairing-Beltah001#index.js]\n\n┣❏𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝚅𝙸𝙳𝙴𝙾 𝙵𝙾𝚁 𝙳𝙴𝙿𝙻𝙾𝚈𝙸𝙽𝙶 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙸𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴.\n🙂‍↕𝙰𝚜𝚔 𝙱𝚎𝚕𝚝𝚊𝚑 𝚝𝚘 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚒𝚗 𝚍𝚎𝚙𝚕𝚘𝚢𝚖𝚎𝚗𝚝🙂‍↔\n┣❏𝙸 𝚊𝚖 𝙱𝚎𝚕𝚝𝚊𝚑 wa.me/254114141192\n\n\n𝙼𝚊𝚍𝚎 𝚘𝚗 𝚎𝚊𝚛𝚝𝚑 𝚋𝚢 𝙱𝚎𝚕𝚝𝚊𝚑𝚔𝚎\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬` });
 
    break;
                                                   
