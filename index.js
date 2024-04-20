@@ -1,7 +1,7 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-let botname = process.env.BOTNAME || '𝙱𝚛𝚒𝚊𝚗 𝚠𝚊𝚒𝚗𝚊𝚒𝚗𝚊';
+let botname = process.env.BOTNAME || '𝙸 𝚊𝚖 𝙱𝚎𝚕𝚝𝚊𝚑';
 
 const owner = process.env.DEV || '254114141192'; // This will send a notification once the bot reconnects
 const {
@@ -176,7 +176,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `Am ${botname}\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
+                                         `${botname}\n,${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
 
                                  ) 
 
@@ -366,7 +366,7 @@ function _0x4f5a() {
         'yvnDl',
         'DgeRP',
         '599384cfdkQy',
-        '.\x20👋\x0a\x0aWelco'
+        '.\x20Hae👋\x0a\x0aWelco'
     ];
     _0x4f5a = function () {
         return _0x1d2cdd;
@@ -734,7 +734,7 @@ function _0x4dc1() {
       console.log(color("Congrats, beltah tech has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as @audibeltah", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(owner + "@s.whatsapp.net", { text: `▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n┣❏🙂‍↕𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇 𝐁𝐎𝐓🙂‍↔𝐇𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 ......\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n\n┣❏𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n┣❏Have fun with the bot\n┣❏ *Contact the developer for help*\n┣❏[https://wa.me/254114141192]\n┣❏𝙱𝚛𝚒𝚊𝚗 𝚠𝚊𝚒𝚗𝚊𝚒𝚗𝚊|𝙱𝚘𝚝 𝙱𝚎𝚕𝚝𝚊𝚑@𝟸𝟶𝟸𝟺™\n\n┣❏𝙼𝚊𝚍𝚎 𝚘𝚗 𝚎𝚊𝚛𝚝𝚑 𝚋𝚢 𝙱𝚎𝚕𝚝𝚊𝚑𝚔𝚎\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬` });
+      client.sendMessage(owner + "@s.whatsapp.net", { text: `▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n┣❏🙂‍↕𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇 𝐁𝐎𝐓🙂‍↔𝐇𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 ......\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n\n┣❏𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n┣❏Have fun with the bot\n┣❏ *Contact the developer for help*\n┣❏[https://wa.me/254114141192]\n┣❏𝙱𝚛𝚒𝚊𝚗 𝚠𝚊𝚒𝚗𝚊𝚒𝚗𝚊|𝙱𝚘𝚝 𝙱𝚎𝚕𝚝𝚊𝚑@𝟸𝟶𝟸𝟺™\n┣❏𝙸 𝚊𝚖 𝙱𝚎𝚕𝚝𝚊𝚑\n\n┣❏𝙼𝚊𝚍𝚎 𝚘𝚗 𝚎𝚊𝚛𝚝𝚑 𝚋𝚢 𝙱𝚎𝚕𝚝𝚊𝚑𝚔𝚎\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬` });
     }
     // console.log('Connected...', update)
   });
