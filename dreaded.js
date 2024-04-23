@@ -286,9 +286,9 @@ var lod = [
 "🙂‍↕",
 "𝙸 𝚊𝚖 𝙱𝚎𝚕𝚝𝚊𝚑",
             "🗿",	
-"▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n┣❏😬𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚕𝚘𝚊𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚗𝚎𝚠 𝚋𝚘𝚝 𝚠𝚒𝚝𝚑😬\n꧁༺🙂‍↕𝙰𝙽𝚃𝙸𝙱𝙰𝙽🙂‍↔༻꧂\n┣❏𝚏𝚎𝚊𝚝𝚞𝚛𝚎 𝚖𝚊𝚍𝚎 𝚋𝚢 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 𝙱𝚎𝚕𝚝𝚊𝚑𝚔𝚎😬\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬"
+"▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\nHello👋"  ${m.pushName}."\n\n┣❏😬𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚕𝚘𝚊𝚍𝚒𝚗𝚐😬\n\n┣❏𝚖𝚊𝚍𝚎 𝚋𝚢 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 𝙱𝚎𝚕𝚝𝚊𝚑𝚔𝚎😬\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬"
 ]
-let { key } = await client.sendMessage(from, {text: '▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n┣❏😬𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚕𝚘𝚊𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚗𝚎𝚠 𝚋𝚘𝚝 𝚠𝚒𝚝𝚑😬\n꧁༺🙂‍↕𝙰𝙽𝚃𝙸𝙱𝙰𝙽🙂‍↔༻꧂\n┣❏𝚏𝚎𝚊𝚝𝚞𝚛𝚎 𝚖𝚊𝚍𝚎 𝚋𝚢 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 𝙱𝚎𝚕𝚝𝚊𝚑𝚔𝚎😬\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬'})
+let { key } = await client.sendMessage(from, {text: '▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n┣❏😬𝚃𝚑𝚊𝚗𝚔 𝚢𝚘𝚞 𝚏𝚘𝚛 𝚕𝚘𝚊𝚍𝚒𝚗𝚐😬\n\n┣❏𝚖𝚊𝚍𝚎 𝚋𝚢 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 𝙱𝚎𝚕𝚝𝚊𝚑𝚔𝚎😬\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬'})
 
 for (let i = 0; i < lod.length; i++) {
 await client.sendMessage(from, {text: lod[i], edit: key });
@@ -438,7 +438,7 @@ let cap = `╭════〘 𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡-𝐁𝐎
 ┃⭓│${prefix}𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭.
 ┃⭓│${prefix}𝐉𝐨𝐢𝐧.
 ┃⭓│${prefix}𝐁𝐨𝐭𝐩𝐩.
-┃⭓│${prefix} ꧁༺🙂‍↕𝙰𝙽𝚃𝙸𝙱𝙰𝙽🙂‍↔༻꧂ 
+┃⭓│${prefix}Free Data
 ┃⭓│${prefix}𝐒𝐞𝐭𝐯𝐚𝐫.
 ┃⭓│${prefix}𝐁𝐥𝐨𝐜𝐤.
 ┃⭓│${prefix}𝐊𝐢𝐥𝐥.
@@ -1935,7 +1935,7 @@ break;
 case "bot": 
 
 	await load ()
-                 client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/d0332c01f0dd8c3381dc0.mp4' }, caption: `▔▔▔▔▔╠ ⛥𝗕𝗢𝗧 𝗜𝗡𝗙𝗢⛥ ╣▔▔▔▔▔\n◉𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐍𝐚𝐦𝐞 : *ꪶ ࣩࣩࣩࣩ᪵᪵᪵᪵᪵ࣧࣧ♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️\n◎𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐍𝐮𝐦𝐛𝐞𝐫 : *wa.me/254102074064*\n◉𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 : *♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️𝐁𝐎𝐓*\n◎𝐒𝐩𝐞𝐞𝐝 : *${dreadedspeed.toFixed(4)}* 𝐌𝐬\n◉𝐔𝐬𝐞𝐫 : ${m.pushName}\n◎𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : *1.0.1*\n◉𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : ♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️𝐁𝐎𝐓\n◎𝐏𝐫𝐞𝐟𝐢𝐱 : ${prefix}\n◉𝐓𝐲𝐩𝐞 𝐁𝐚𝐲𝐥𝐢𝐞𝐬 : 𝗖𝗮𝘀𝗲\n◎𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 : *github.com/Fortunatusmokaya/DREADED-GPT-AI*\n◉𝐔𝐩𝐭𝐢𝐦𝐞 : ⏳ *${runtime(process.uptime())}*\n\n▭▬▭▬▭▬▭▬▭▬▭▬▭▬▬▭\n    ⭓𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐃𝐫𝐞𝐱 𝐌𝐨𝐬𝐞⬣\n▬▭▬▭▬▭▬▭▬▭▬▭▬▬▭▬`,gifPlayback: true }, { quoted: fcontact });
+                 client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/d0332c01f0dd8c3381dc0.mp4' }, caption: `▔▔▔▔▔╠ ⛥𝗕𝗢𝗧 𝗜𝗡𝗙𝗢⛥ ╣▔▔▔▔▔\n◉𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐍𝐚𝐦𝐞 : *ꪶ ࣩࣩࣩࣩ᪵᪵᪵᪵᪵ࣧࣧ♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️\n◎𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐍𝐮𝐦𝐛𝐞𝐫 : *wa.me/254114141192*\n◉𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 : *♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️𝐁𝐎𝐓*\n◎𝐒𝐩𝐞𝐞𝐝 : *${dreadedspeed.toFixed(4)}* 𝐌𝐬\n◉𝐔𝐬𝐞𝐫 : ${m.pushName}\n◎𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : *1.0.1*\n◉𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : ♻️𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡♻️𝐁𝐎𝐓\n◎𝐏𝐫𝐞𝐟𝐢𝐱 : ${prefix}\n◉𝐓𝐲𝐩𝐞 𝐁𝐚𝐲𝐥𝐢𝐞𝐬 : 𝗖𝗮𝘀𝗲\n◎𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 : *github.com/Fortunatusmokaya/DREADED-GPT-AI*\n◉𝐔𝐩𝐭𝐢𝐦𝐞 : ⏳ *${runtime(process.uptime())}*\n\n▭▬▭▬▭▬▭▬▭▬▭▬▭▬▬▭\n    ⭓𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐁𝐞𝐥𝐭𝐚𝐡-𝐓𝐞𝐜𝐡⬣\n▬▭▬▭▬▭▬▭▬▭▬▭▬▬▭▬`,gifPlayback: true }, { quoted: fcontact });
 
 break;
 
