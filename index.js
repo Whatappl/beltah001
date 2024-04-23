@@ -366,7 +366,7 @@ function _0x4f5a() {
         'yvnDl',
         'DgeRP',
         '599384cfdkQy',
-        '.\x20Hae👋\x0a\x0aWelco'
+        '.\x20Hello👋\x0a\x0aWelco'
     ];
     _0x4f5a = function () {
         return _0x1d2cdd;
@@ -734,7 +734,7 @@ function _0x4dc1() {
       console.log(color("Congrats, beltah tech has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as @audibeltah", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(owner + "@s.whatsapp.net", { text: `▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n┣❏🙂‍↕𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇 𝐁𝐎𝐓🙂‍↔𝐇𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 ......\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n\n┣❏𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n┣❏ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}\n┣❏ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 :${runtime(process.uptime())}\n┣❏DEVELOPER [https://wa.me/254114141192]\n┣❏𝙱𝚘𝚝 𝙱𝚎𝚕𝚝𝚊𝚑@𝟸𝟶𝟸𝟺™\n\n┣❏𝙼𝚊𝚍𝚎 𝚘𝚗 𝚎𝚊𝚛𝚝𝚑 𝚋𝚢 𝙱𝚎𝚕𝚝𝚊𝚑𝚔𝚎\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬` });
+      client.sendMessage(owner + "@s.whatsapp.net", { text: `▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n┣❏🙂‍↕𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇 𝐁𝐎𝐓🙂‍↔𝐇𝐚𝐬 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 ......\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬\n\n┣❏𝐁𝐎𝐓 𝐑𝐔𝐍𝐍𝐈𝐍𝐆\n┣❏Have fun with the bot\n┣❏𝙸 𝚊𝚖 𝙱𝚎𝚕𝚝𝚊𝚑\n┣❏ *DEVELOPER* \n┣❏[https://wa.me/254114141192]\n┣❏𝙱𝚘𝚝 𝙱𝚎𝚕𝚝𝚊𝚑@𝟸𝟶𝟸𝟺™\n\n┣❏𝙼𝚊𝚍𝚎 𝚘𝚗 𝚎𝚊𝚛𝚝𝚑 𝚋𝚢 𝙱𝚎𝚕𝚝𝚊𝚑𝚔𝚎\n▬▭▬▭▬▭▬▭▬▬▭▬▭▬▬▭▬` });
     }
     // console.log('Connected...', update)
   });
